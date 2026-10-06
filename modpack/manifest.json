@@ -1,0 +1,66 @@
+# Modpack Planning Guide
+
+## Recommended Minecraft baseline
+- Minecraft version: 1.20.1
+- Loader: Forge or NeoForge
+- Target style: high-fantasy/medieval survival RPG
+
+## Core mod categories
+
+### Combat and progression
+- Weapon and armor stats
+- Skill tree frameworks
+- Character stats systems
+- Ability and class systems
+
+### Magic and spells
+- Arcane, elemental, healing, and curse systems
+- Spellcasting, mana, and cooldown management
+- Runes and magical item crafting
+
+### Exploration and world generation
+- biomes and structures
+- dungeon generation
+- relic loot and boss arenas
+
+### QoL and utility
+- map tools
+- backpacks, waystones, crafting
+- item sorting and inventory management
+
+### Kingdom and economy
+- NPC villages and town management
+- economy balancing
+- quest tracking and rewards
+
+## Starter feature list
+
+- Skill tree system
+- Five player classes
+- Questline system with NPC objectives
+- Boss arenas and progression bosses
+- Rare loot tables
+- Kingdom upgrades and defense events
+- Teleport and travel utility
+- Performance-focused config balancing
+
+## Recommended pack flow
+
+1. Survival starter
+2. First dungeon and first boss
+3. Class specialization unlock
+4. Town development
+5. Midgame zone unlock
+6. Endgame raid and challenge bosses
+
+## Performance plan
+- Keep heavy magic + worldgen mods balanced
+- Use QoL and optimization mods
+- Avoid duplicate item systems
+- Confirm compatibility before final release
+
+## Future expansion
+- Multiplayer progression support
+- Guild or faction systems
+- Additional biomes and bosses
+- Story-driven side quests
