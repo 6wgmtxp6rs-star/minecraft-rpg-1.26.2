@@ -1,48 +1,38 @@
 # Minecraft RPG 26.2
 
-A playable starter project for a Minecraft fantasy RPG inspired by Cisco's RPG style: progression, classes, quests, combat, magic, and kingdom-building.
+A Minecraft fantasy RPG starter inspired by the progression, combat, loot, exploring, class identity, and kingdom-building loops that made Cisco-style RPG packs memorable.
 
-This repository is structured as a real modpack planning project and includes a validation script so the project can be checked before expansion.
+This repository is now expanded into a functional RPG foundation for a Minecraft datapack project. It includes class selection, combat scaffolding, magic gameplay hooks, quest progression, skill tree logic, kingdom systems, and dynamic difficulty planning.
 
-## What is included
+## Features included
 
-- A complete RPG concept for the pack
-- Class and skill data
-- Modpack planning and feature roadmap
-- Starter manifest for a Forge/Fabric based modpack
-- Validation script to ensure project integrity
+- 5 fantasy classes: Knight, Mage, Ranger, Rogue, Paladin
+- Leveling and XP tracking
+- Class-specific starter gear and passive effects
+- Combat system framework with dodge, stamina, combo, and crit hooks
+- Magic system framework with mana, spellbook, and casting support
+- Quest progression logic
+- Skill tree and talent point allocations
+- Kingdom building and town progression framework
+- Dynamic difficulty scaling and region progression hooks
+- pack.mcmeta for Minecraft datapack compatibility
 
 ## Quick start
 
-1. Review the design docs in `docs/`.
-2. Inspect the starter pack manifest in `modpack/manifest.json`.
-3. Add your preferred mod list and config files when ready.
-4. Validate the project:
+1. Place the repository folder in a world datapacks directory.
+2. Run `/reload` in-game.
+3. Execute `/function rpg26:init` if needed.
+4. Use `/function rpg26:class_select` to begin.
+5. Progress through the starter questline and class build path.
 
-```bash
-python3 scripts/validate_project.py
-```
+## Core structure
 
-## Repository layout
-
-- `docs/` — design docs and gameplay plan
-- `data/` — JSON game data
-- `modpack/` — modpack manifest and config blueprint
-- `scripts/` — automation and validation
-
-## Current goal
-
-This is an original project starter and can be expanded into a full modpack, plugin system, or custom RPG feature set.
+- `data/rpg26/functions/` — gameplay systems and triggers
+- `data/rpg26/loot_tables/` — loot and reward materials
+- `data/rpg26/advancements/` — progression milestones
+- `docs/` — design and feature documentation
+- `pack.mcmeta` — required datapack metadata
 
 ## Notes
 
-This repository is intentionally structured so it can be extended into:
-
-- a Forge modpack
-- a Fabric + custom datapack project
-- a plugin-based survival RPG
-- a game design document for a larger team
-
----
-
-If you want a full playable pack next, the next step is to add actual mod IDs and config files for the chosen Minecraft version.
+This project is structured as a real RPG foundation and can be expanded into a larger Forge/Fabric modpack or a full datapack-driven survival RPG. It is not a full production game by itself, but it is now a much more complete gameplay framework than a simple concept pack.
