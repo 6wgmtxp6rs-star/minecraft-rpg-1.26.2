@@ -1,0 +1,18 @@
+{
+  "display": {
+    "title": "Minecraft RPG 26.2",
+    "description": "Welcome to the fantasy realm!",
+    "icon": {
+      "item": "minecraft:iron_sword"
+    },
+    "background": "minecraft:textures/block/dark_oak_planks.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

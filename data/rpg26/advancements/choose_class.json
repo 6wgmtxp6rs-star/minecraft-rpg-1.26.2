@@ -1,0 +1,18 @@
+{
+  "parent": "rpg26:root",
+  "display": {
+    "title": "Class Selection",
+    "description": "Choose your first class",
+    "icon": {
+      "item": "minecraft:golden_helmet"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "select_class": {
+      "trigger": "minecraft:entity_hurt_player"
+    }
+  }
+}
